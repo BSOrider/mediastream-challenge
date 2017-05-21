@@ -1,28 +1,28 @@
 'use strict';
 
-console.log(`
-4.
----
+// console.log(`
+// 4.
+// ---
 
-We require a 'List' component that will receive an array of dates (formated as ISO Dates (Date-Time))
-and it has to render those to 'Row' components.
+// We require a 'List' component that will receive an array of dates (formated as ISO Dates (Date-Time))
+// and it has to render those to 'Row' components.
 
-This 'Row' component can be as simple as you want,
-but it must display the dates like the following example: '(12/jun/2013)'
-and on click must 'alert()' its index in the list.
+// This 'Row' component can be as simple as you want,
+// but it must display the dates like the following example: '(12/jun/2013)'
+// and on click must 'alert()' its index in the list.
 
-Also, the 'List' component should receive an optional child as a header.
-Remember to validate the props.
+// Also, the 'List' component should receive an optional child as a header.
+// Remember to validate the props.
 
-The implementation **must focus on performance**.
+// The implementation **must focus on performance**.
 
-Take a look at the MyApp component, you should not modify it.
+// Take a look at the MyApp component, you should not modify it.
 
-NOTE: You can use ES7+ here and install any library not tied to React.
-Example:
-- lodash: OK
-- react-dates: NOPE
-`);
+// NOTE: You can use ES7+ here and install any library not tied to React.
+// Example:
+// - lodash: OK
+// - react-dates: NOPE
+// `);
 
 import React from 'react';
 
